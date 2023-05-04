@@ -1,0 +1,2 @@
+Dependencies for Project 'Lab6', Target 'Target 1': (DO NOT MODIFY !)
+F (.\Source\cm0dsasm.s)(0x615128A8)(--cpu Cortex-M0 --li -g --apcs=interwork -I"H:\Digital Electronics\Lab6\Lab6\Software\RTE"-IQ:\uVision5.eps\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include-IQ:\uVision5.eps\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\Device\ARM\ARMCM0\Include--pd "__UVISION_VERSION SETA 521" --pd "_RTE_ SETA 1" --pd "ARMCM0 SETA 1"--list .\listings\cm0dsasm.lst --xref -o .\objects\cm0dsasm.o --depend .\objects\cm0dsasm.d)

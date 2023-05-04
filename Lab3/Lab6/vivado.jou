@@ -1,0 +1,90 @@
+#-----------------------------------------------------------
+# Vivado v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Tue Mar  7 15:18:20 2023
+# Process ID: 15268
+# Current directory: H:/Digital Electronics/Lab6/Lab6
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent11044 H:\Digital Electronics\Lab6\Lab6\Lab6.xpr
+# Log file: H:/Digital Electronics/Lab6/Lab6/vivado.log
+# Journal file: H:/Digital Electronics/Lab6/Lab6\vivado.jou
+# Running On: HW-GRMF1-PC014, OS: Windows, CPU Frequency: 2712 MHz, CPU Physical cores: 4, Host memory: 17053 MB
+#-----------------------------------------------------------
+start_guioopen_project {H:/Digital Electronics/Lab6/Lab6/Lab6.xpr}
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1 -jobs 2
+wait_on_run synth_1
+launch_runs impl_1 -jobs 2
+wait_on_run impl_1
+open_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+wait_on_run impl_1
+open_hw_manager
+connect_hw_server -allow_non_jtag
+open_hw_target
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+wait_on_run impl_1
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+wait_on_run impl_1
+reset_run synth_1
+launch_runs synth_1 -jobs 2
+wait_on_run synth_1
+launch_runs impl_1 -jobs 2
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+wait_on_run impl_1
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {H:/Digital Electronics/Lab6/Lab6/Lab6.runs/impl_1/AHBLITE_SYS.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+close_project
+create_project Lab7 {H:/Digital Electronics/Lab7/Lab7} -part xc7a35tcpg236-3
+add_files -fileset constrs_1 -norecurse {{H:/Digital Electronics/Lab7/Lab7/Constraints/basys_3_constraints_full.xdc}}
+add_files -norecurse {{H:/Digital Electronics/Lab7/Lab7/Verilog/AHBLITE_SYS.v}}
+update_compile_order -fileset sources_1
+add_files -norecurse {{H:/Digital Electronics/Lab7/Lab7/Verilog/cortexm0ds_logic.v} {H:/Digital Electronics/Lab7/Lab7/Verilog/CORTEXM0INTEGRATION.v}}
+update_compile_order -fileset sources_1
+add_files {{H:/Digital Electronics/Lab7/Lab7/Verilog/AHB_GPIO/AHBGPIO.v} {H:/Digital Electronics/Lab7/Lab7/Verilog/AHB_TIMER/prescaler.v} {H:/Digital Electronics/Lab7/Lab7/Verilog/AHB_TIMER/AHBTIMER.v} {H:/Digital Electronics/Lab7/Lab7/Verilog/AHB_7SEG/AHB7SEGDEC.v} {H:/Digital Electronics/Lab7/Lab7/Verilog/AHB_UART/uart_tx.v} {H:/Digital Electronics/Lab7/Lab7/Verilog/AHB_UART/baudgen.v} {H:/Digital Electronics/Lab7/Lab7/Verilog/AHB_UART/AHBUART.v} {H:/Digital Electronics/Lab7/Lab7/Verilog/AHB_UART/fifo.v} {H:/Digital Electronics/Lab7/Lab7/Verilog/AHB_UART/uart_rx.v} {H:/Digital Electronics/Lab7/Lab7/Verilog/AHB_VGA/font_rom.v} {H:/Digital Electronics/Lab7/Lab7/Verilog/AHB_VGA/vga_image.v} {H:/Digital Electronics/Lab7/Lab7/Verilog/AHB_VGA/AHBVGASYS.v} {H:/Digital Electronics/Lab7/Lab7/Verilog/AHB_VGA/vga_sync.v} {H:/Digital Electronics/Lab7/Lab7/Verilog/AHB_VGA/vga_console.v} {H:/Digital Electronics/Lab7/Lab7/Verilog/AHB_VGA/counter.v} {H:/Digital Electronics/Lab7/Lab7/Verilog/AHB_VGA/dual_port_ram_sync.v} {H:/Digital Electronics/Lab7/Lab7/Verilog/AHB_BUS/AHBDCD.v} {H:/Digital Electronics/Lab7/Lab7/Verilog/AHB_BUS/AHBMUX.v} {H:/Digital Electronics/Lab7/Lab7/Verilog/AHB_BRAM/AHB2BRAM.v}}
+update_compile_order -fileset sources_1
+set_property dataflow_viewer_settings "min_width=16"   [current_fileset]
+set_property STEPS.WRITE_BITSTREAM.ARGS.BIN_FILE true [get_runs impl_1]
+launch_runs synth_1 -jobs 2
+wait_on_run synth_1
+launch_runs impl_1 -jobs 2
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+wait_on_run impl_1
+open_hw_manager
+connect_hw_server -allow_non_jtag
+open_hw_target
+set_property PROGRAM.FILE {H:/Digital Electronics/Lab7/Lab7/Lab7.runs/impl_1/AHBLITE_SYS.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {H:/Digital Electronics/Lab7/Lab7/Lab7.runs/impl_1/AHBLITE_SYS.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+reset_run synth_1
+launch_runs synth_1 -jobs 2
+wait_on_run synth_1
+launch_runs impl_1 -jobs 2
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+wait_on_run impl_1
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {H:/Digital Electronics/Lab7/Lab7/Lab7.runs/impl_1/AHBLITE_SYS.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {H:/Digital Electronics/Lab7/Lab7/Lab7.runs/impl_1/AHBLITE_SYS.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]

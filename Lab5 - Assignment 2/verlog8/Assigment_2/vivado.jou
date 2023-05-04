@@ -1,0 +1,62 @@
+#-----------------------------------------------------------
+# Vivado v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Mon Mar 20 14:47:46 2023
+# Process ID: 6612
+# Current directory: H:/Digital Electronics/Assignment 2/verlog8/Assigment_2
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent15244 H:\Digital Electronics\Assignment 2\verlog8\Assigment_2\Assigment_2.xpr
+# Log file: H:/Digital Electronics/Assignment 2/verlog8/Assigment_2/vivado.log
+# Journal file: H:/Digital Electronics/Assignment 2/verlog8/Assigment_2\vivado.jou
+# Running On: HW-GRMF1-PC008, OS: Windows, CPU Frequency: 2712 MHz, CPU Physical cores: 4, Host memory: 17053 MB
+#-----------------------------------------------------------
+start_gui
+open_project {H:/Digital Electronics/Assignment 2/verlog8/Assigment_2/Assigment_2.xpr}
+update_compile_order -fileset sources_1
+add_files {{H:/Digital Electronics/Assignment 2/verlog8/Assigment_2/Verilog/AHB2BRAM.v} {H:/Digital Electronics/Assignment 2/verlog8/Assigment_2/Verilog/AHB2BRAM.v} {H:/Digital Electronics/Assignment 2/verlog8/Assigment_2/Verilog/AHB_GPIO/AHBGPIO.v} {H:/Digital Electronics/Assignment 2/verlog8/Assigment_2/Verilog/AHB_7SEG/AHB7SEGDEC.v} {H:/Digital Electronics/Assignment 2/verlog8/Assigment_2/Verilog/AHB_VGA/vga_image.v} {H:/Digital Electronics/Assignment 2/verlog8/Assigment_2/Verilog/AHB_UART/AHBUART.v} {H:/Digital Electronics/Assignment 2/verlog8/Assigment_2/Verilog/AHB_VGA/counter.v} {H:/Digital Electronics/Assignment 2/verlog8/Assigment_2/Verilog/AHBLITE_SYS.v} {H:/Digital Electronics/Assignment 2/verlog8/Assigment_2/Verilog/AHB_VGA/AHBVGASYS.v} {H:/Digital Electronics/Assignment 2/verlog8/Assigment_2/Verilog/AHB_VGA/font_rom.v} {H:/Digital Electronics/Assignment 2/verlog8/Assigment_2/Verilog/AHB_VGA/vga_console.v} {H:/Digital Electronics/Assignment 2/verlog8/Assigment_2/Verilog/AHB_UART/baudgen.v} {H:/Digital Electronics/Assignment 2/verlog8/Assigment_2/Verilog/AHB_TIMER/AHBTIMER.v} {H:/Digital Electronics/Assignment 2/verlog8/Assigment_2/Verilog/AHBMUX.v} {H:/Digital Electronics/Assignment 2/verlog8/Assigment_2/Verilog/AHB_UART/uart_tx.v} {H:/Digital Electronics/Assignment 2/verlog8/Assigment_2/Verilog/AHB_UART/uart_rx.v} {H:/Digital Electronics/Assignment 2/verlog8/Assigment_2/Verilog/cortexm0ds_logic.v} {H:/Digital Electronics/Assignment 2/verlog8/Assigment_2/Verilog/AHB_TIMER/prescaler.v} {H:/Digital Electronics/Assignment 2/verlog8/Assigment_2/Verilog/AHB_VGA/dual_port_ram_sync.v} {H:/Digital Electronics/Assignment 2/verlog8/Assigment_2/Verilog/AHB_UART/fifo.v} {H:/Digital Electronics/Assignment 2/verlog8/Assigment_2/Verilog/CORTEXM0INTEGRATION.v} {H:/Digital Electronics/Assignment 2/verlog8/Assigment_2/Verilog/AHB_VGA/vga_sync.v} {H:/Digital Electronics/Assignment 2/verlog8/Assigment_2/Verilog/AHBDCD.v} {H:/Digital Electronics/Assignment 2/verlog8/Assigment_2/Verilog/AHBMUX.v} {H:/Digital Electronics/Assignment 2/verlog8/Assigment_2/Verilog/AHBLITE_SYS.v} {H:/Digital Electronics/Assignment 2/verlog8/Assigment_2/Verilog/cortexm0ds_logic.v} {H:/Digital Electronics/Assignment 2/verlog8/Assigment_2/Verilog/CORTEXM0INTEGRATION.v} {H:/Digital Electronics/Assignment 2/verlog8/Assigment_2/Verilog/AHBDCD.v}}
+update_compile_order -fileset sources_1
+export_ip_user_files -of_objects  [get_files {{H:/Digital Electronics/Assignment 2/verlog/AHB2BRAM.v}}] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files {{H:/Digital Electronics/Assignment 2/verlog/AHB_7SEG/AHB7SEGDEC.v}}] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files {{H:/Digital Electronics/Assignment 2/verlog/AHBDCD.v}}] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files {{H:/Digital Electronics/Assignment 2/verlog/AHB_GPIO/AHBGPIO.v}}] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files {{H:/Digital Electronics/Assignment 2/verlog/AHB_GPIO/AHBGPIO2023.v}}] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files {{H:/Digital Electronics/Assignment 2/verlog/AHBLITE_SYS.v}}] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files {{H:/Digital Electronics/Assignment 2/verlog/AHB_TIMER/AHBTIMER.v}}] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files {{H:/Digital Electronics/Assignment 2/verlog/AHBMUX.v}}] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files {{H:/Digital Electronics/Assignment 2/verlog/AHB_TIMER/AHBTIMER2023.v}}] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files {{H:/Digital Electronics/Assignment 2/verlog/AHB_UART/AHBUART.v}}] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files {{H:/Digital Electronics/Assignment 2/verlog/AHB_VGA/AHBVGASYS.v}}] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files {{H:/Digital Electronics/Assignment 2/verlog/CORTEXM0INTEGRATION.v}}] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files {{H:/Digital Electronics/Assignment 2/verlog/AHB_UART/baudgen.v}}] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files {{H:/Digital Electronics/Assignment 2/verlog/AHB_VGA/counter.v}}] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files {{H:/Digital Electronics/Assignment 2/verlog/cortexm0ds_logic.v}}] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files {{H:/Digital Electronics/Assignment 2/verlog/AHB_VGA/dual_port_ram_sync.v}}] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files {{H:/Digital Electronics/Assignment 2/verlog/AHB_VGA/font_rom.v}}] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files {{H:/Digital Electronics/Assignment 2/verlog/AHB_UART/fifo.v}}] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files {{H:/Digital Electronics/Assignment 2/verlog/AHB_TIMER/prescaler.v}}] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files {{H:/Digital Electronics/Assignment 2/verlog/AHB_UART/uart_tx.v}}] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files {{H:/Digital Electronics/Assignment 2/verlog/AHB_UART/uart_rx.v}}] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files {{H:/Digital Electronics/Assignment 2/verlog/AHB_TIMER/prescaler2023.v}}] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files {{H:/Digital Electronics/Assignment 2/verlog/AHB_VGA/vga_console.v}}] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files {{H:/Digital Electronics/Assignment 2/verlog/AHB_VGA/vga_image.v}}] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files {{H:/Digital Electronics/Assignment 2/verlog/AHB_VGA/vga_sync.v}}] -no_script -reset -force -quiet
+remove_files  {{H:/Digital Electronics/Assignment 2/verlog/AHB2BRAM.v} {H:/Digital Electronics/Assignment 2/verlog/AHB_7SEG/AHB7SEGDEC.v} {H:/Digital Electronics/Assignment 2/verlog/AHBDCD.v} {H:/Digital Electronics/Assignment 2/verlog/AHB_GPIO/AHBGPIO.v} {H:/Digital Electronics/Assignment 2/verlog/AHB_GPIO/AHBGPIO2023.v} {H:/Digital Electronics/Assignment 2/verlog/AHBLITE_SYS.v} {H:/Digital Electronics/Assignment 2/verlog/AHB_TIMER/AHBTIMER.v} {H:/Digital Electronics/Assignment 2/verlog/AHBMUX.v} {H:/Digital Electronics/Assignment 2/verlog/AHB_TIMER/AHBTIMER2023.v} {H:/Digital Electronics/Assignment 2/verlog/AHB_UART/AHBUART.v} {H:/Digital Electronics/Assignment 2/verlog/AHB_VGA/AHBVGASYS.v} {H:/Digital Electronics/Assignment 2/verlog/CORTEXM0INTEGRATION.v} {H:/Digital Electronics/Assignment 2/verlog/AHB_UART/baudgen.v} {H:/Digital Electronics/Assignment 2/verlog/AHB_VGA/counter.v} {H:/Digital Electronics/Assignment 2/verlog/cortexm0ds_logic.v} {H:/Digital Electronics/Assignment 2/verlog/AHB_VGA/dual_port_ram_sync.v} {H:/Digital Electronics/Assignment 2/verlog/AHB_VGA/font_rom.v} {H:/Digital Electronics/Assignment 2/verlog/AHB_UART/fifo.v} {H:/Digital Electronics/Assignment 2/verlog/AHB_TIMER/prescaler.v} {H:/Digital Electronics/Assignment 2/verlog/AHB_UART/uart_tx.v} {H:/Digital Electronics/Assignment 2/verlog/AHB_UART/uart_rx.v} {H:/Digital Electronics/Assignment 2/verlog/AHB_TIMER/prescaler2023.v} {H:/Digital Electronics/Assignment 2/verlog/AHB_VGA/vga_console.v} {H:/Digital Electronics/Assignment 2/verlog/AHB_VGA/vga_image.v} {H:/Digital Electronics/Assignment 2/verlog/AHB_VGA/vga_sync.v}}
+reset_run synth_1
+launch_runs synth_1 -jobs 2
+wait_on_run synth_1
+launch_runs impl_1 -jobs 2
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+wait_on_run impl_1
+open_run impl_1
+open_hw_manager
+connect_hw_server -allow_non_jtag
+open_hw_target
+set_property PROGRAM.FILE {H:/Digital Electronics/Assignment 2/verlog8/Assigment_2/Assigment_2.runs/impl_1/AHBLITE_SYS.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {H:/Digital Electronics/Assignment 2/verlog8/Assigment_2/Assigment_2.runs/impl_1/AHBLITE_SYS.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
